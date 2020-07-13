@@ -1,0 +1,135 @@
+
+/* 
+    Created on : 13-Jul-2020, 11:52:21 pm
+    Author     : jawed
+*/
+body{
+    height: 1300px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navigation{
+    background-color: #003333;
+    color: white;
+    height: 50px;
+}
+
+#box01{
+    max-width: 76%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.items{
+    border: 1px #cccccc solid;
+    width: 20%;
+    margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+    padding: 20px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+.items h3{
+    text-align: center;
+}
+
+.items h1{
+    text-align: center;
+    color: #339900;
+    font-size: 50px;
+    
+}
+#taskhead{
+    width: 93%;
+    margin-left: 10px;
+    background-color: #eeeaea;
+    margin-top: 20px;
+    border: 1px #eeeaea solid;
+    border-radius: 4px;
+    padding: 20px;
+    
+}
+#taskhead a{
+    text-decoration: none;
+    font-size: 17px;
+    color: gray;
+    padding-left: 20px;
+}
+.box-2{
+    max-width: 92%;
+    margin: auto;
+    
+}
+.table-1{
+    
+    margin: auto;
+    max-width: 95%;
+    border: 1px #dfe6dd solid;
+    border-radius: 5px;
+    border-collapse: collapse;
+    overflow-y: scroll; 
+    height: 300px;
+    margin-top: 60px;
+    
+}
+.table-1 table tr td{
+    text-align: center;
+    
+    
+    
+    
+}
+.table-1 table tr th{
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+    width: 76px;
+    vertical-align: center;
+    
+    
+}
+.table-1 table tr{
+    height: 60px;
+    
+}
+table,th,td{
+    border: 1px #eaecea solid;
+    border-collapse: collapse;
+}
+.leaderboard{
+    border: 1px #ced1cd solid;
+    border-radius: 5px;
+    float: left;
+    padding: 26px;
+    height: 350px;
+    margin-top: 70px;
+    width: 40%;
+    
+}
+.box-3 {
+    height: 250px;
+    width: 85%;
+    overflow-y: scroll;
+    margin: auto;
+    text-align: center;
+    
+}
+.box-3 table tr{
+    height: 50px;
+    
+}
+.graph{
+    float: left;
+    width: 51%;
+    margin-left: 10px;
+    margin-top: 70px;
+    height: 400px;
+}
